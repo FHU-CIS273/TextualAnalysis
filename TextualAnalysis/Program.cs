@@ -9,6 +9,8 @@ namespace TextualAnalysis
         static void Main(string[] args)
         {
             var result = ComputeWordFrequenciesFromFile("../../../Data/small.txt");
+            var stopWords = GetStopWords("../../../Data/stop-word-list.txt");
+
         }
 
 
@@ -49,6 +51,25 @@ namespace TextualAnalysis
 
 
             return wordCounts;
+        }
+
+        public static List<string> GetStopWords(string path)
+        {
+            var stopWords = new List<string>();
+            
+            using (StreamReader streamReader = File.OpenText(path))
+            {
+                string text = streamReader.ReadToEnd();
+
+                var words = text.Split(" \n.");
+
+                foreach (string s in words)
+                {
+                    Console.WriteLine(s);
+                }
+            }
+
+            return stopWords;
         }
 
 
