@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextualAnalysis", "TextualAnalysis\TextualAnalysis.csproj", "{528D75A6-8AE7-4925-B267-59D5CC22FBAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{528D75A6-8AE7-4925-B267-59D5CC22FBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{528D75A6-8AE7-4925-B267-59D5CC22FBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{528D75A6-8AE7-4925-B267-59D5CC22FBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{528D75A6-8AE7-4925-B267-59D5CC22FBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
